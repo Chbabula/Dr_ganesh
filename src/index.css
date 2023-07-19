@@ -1,0 +1,13 @@
+body{
+    background-image: url('https://wallpapercave.com/wp/wp2216034.jpg');
+    background-repeat: no-repeat;
+    /* object-fit: cover; */
+}
+body {
+    background-color: pink;
+  }
+/*   
+  @media screen and (min-width: 480px) {
+    .nav {width: 200px; float: left;}
+    .nav {margin-left: 216px;}
+  } */

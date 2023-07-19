@@ -1,0 +1,130 @@
+@import url('https://fonts.googleapis.com/css2?family=Chivo+Mono:ital,wght@1,200;1,900&family=Lumanosimo&family=Pathway+Extreme&display=swap');
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+    color: #000;
+}
+
+nav {
+    position: sticky;
+    top: 0;
+    height: 65px;
+    display: flex;
+    border-bottom: 1px solid #ededed;
+    background-color: white;
+    border-bottom: 1px solid #ededed;
+    box-shadow: 0 2px 4px 0 rgba(0, 0, 0, 0.2),
+        0 6px 10px 0 rgba(0, 0, 0, 0.19);
+}
+
+nav .brand img {
+    display: inline;
+    height: 40px;
+}
+nav a{
+    height: 100%;
+    width: 100%;
+    gap: 10px;
+    text-align: center;
+    justify-content: center;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.Dr-img-card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    transition: 0.3s;
+    max-width: 1200px;
+    width: 200px;
+    height: 250px;
+    background-color: #000;
+    margin-top: 50px;
+    padding: 5px;
+    margin-left: 1200px;
+}
+
+.crad-p {
+    color: white;
+    text-align: center;
+    font-weight: 700;
+}
+
+.Dr-img-container img {
+    background-color: #ebe7e7;
+    height: 200px;
+    width: 190px;
+
+}
+
+.info-btn {
+    margin-left: 150px;
+    height: 35px;
+    width: 120px;
+    border-style: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    background: blue;
+    color: white;
+    border-radius: 20px;
+    font-size: 20px;
+}
+
+.container-box {
+    /* max-height: 1200px; */
+    height: 350px;
+    width: 1000px;
+    background-color: rgb(108, 113, 113);
+    margin-top: 20px;
+    margin-left: 150px;
+    padding: 5px;
+    overflow: auto;
+}
+
+.btn-p {
+    align-items: center;
+    justify-content: center;
+    padding: 10px;
+    color: white;
+    font-size: 20px;
+    font-weight: 300;
+    scroll-behavior: smooth;
+    font-family: 'Chivo Mono', monospace;
+
+}
+
+.btn-expo {
+    height: 40px;
+    box-shadow: inset 0px 4px rgba(9, 7, 7, 0.2);
+    width: 80px;
+    border: 2px solid rgb(39, 17, 17);
+    margin: 50px;
+    margin-left: 550px;
+    cursor: pointer;
+}
+
+.btn-expo:hover {
+    background-color: #000;
+    color: rgb(224, 224, 236);
+
+}
+
+.footer {
+    background-color: #807676;
+    height: 200px;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+}
